@@ -5,5 +5,8 @@ on:
 jobs:
   deploy-WM:
     runs-on: ubuntu-latest
-    step:
-      run: echo "Deploying to WM" 
+    steps:
+        - uses: actions/checkout@v4
+        - run: echo "Deploying to workflowWM" 
+
+        
