@@ -1,0 +1,9 @@
+name: "workflowWM"
+on:
+  push:
+    branches: ["main"]
+jobs:
+  deploy-WM:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "Deploying to WM" 
