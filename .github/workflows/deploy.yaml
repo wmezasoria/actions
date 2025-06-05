@@ -5,5 +5,5 @@ on:
 jobs:
   deploy-WM:
     runs-on: ubuntu-latest
-    steps:
+    step:
       run: echo "Deploying to WM" 
