@@ -1,4 +1,4 @@
-name: "workflowWM"
+name: "workflow-name-WM"
 on:
   push:
     branches: ["main"]
@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v4
-        - run: echo "Deploying to workflowWM" 
+        - run: echo "Deploying to workflow-WM" 
 
         
